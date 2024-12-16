@@ -12,7 +12,38 @@
             <h1>Welcome to My Website</h1>
         </header>
         <main>
-            <p>This is a simple website to demonstrate GitHub workflows.</p>
+            <section class="about">
+                <h2>About Me</h2>
+                <p>I am a web developer passionate about creating clean and functional websites.</p>
+            </section>
+            
+            <section class="projects">
+                <h2>My Projects</h2>
+                <ul>
+                    <li>Project 1 - Website Redesign</li>
+                    <li>Project 2 - E-commerce Platform</li>
+                    <li>Project 3 - Portfolio Site</li>
+                </ul>
+            </section>
+            
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
         </main>
         <footer>
             <p>&copy; 2024 My Website</p>
