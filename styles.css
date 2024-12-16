@@ -20,6 +20,27 @@ header {
     margin-bottom: 2rem;
 }
 
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
 main {
     background-color: white;
     padding: 20px;
@@ -43,6 +64,78 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.guide-links {
+    list-style: none;
+    padding: 0;
+}
+
+.guide-links li {
+    margin-bottom: 1rem;
+}
+
+.guide-links a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.guide-links a:hover {
+    text-decoration: underline;
+}
+
+/* Resume Styles */
+.resume .job {
+    margin-bottom: 2rem;
+}
+
+.resume .company {
+    color: #666;
+    font-style: italic;
+}
+
+.resume .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.resume .skills li {
+    background-color: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+/* Racing Styles */
+.category {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.racing-tips ul {
+    list-style: none;
+    padding: 0;
+}
+
+.racing-tips li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Project Styles */
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Contact Form Styles */
 .contact-form {
     display: flex;
     flex-direction: column;
