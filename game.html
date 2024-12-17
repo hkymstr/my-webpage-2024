@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Howard's Website</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="game.html" class="active">Games</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="games-section">
+            <h1>Games</h1>
+            
+            <div class="game-card">
+                <h2>Bouncing Ball Game</h2>
+                <p>A simple but challenging game where you control a cursor with arrow keys while avoiding a bouncing ball. 
+                   The longer you survive, the higher your score!</p>
+                
+                <h3>How to Play:</h3>
+                <ol>
+                    <li>Download the game from <a href="https://github.com/hkymstr/bouncing_ball" target="_blank">GitHub</a></li>
+                    <li>Install Python if you haven't already (<a href="https://www.python.org/downloads/" target="_blank">Download Python</a>)</li>
+                    <li>Install the required package by running: <code>pip install pygame</code></li>
+                    <li>Run the game using: <code>python bouncing_ball.py</code></li>
+                </ol>
+
+                <h3>Controls:</h3>
+                <ul>
+                    <li>Use arrow keys to move the blue cursor</li>
+                    <li>Avoid touching the red bouncing ball</li>
+                    <li>Press ESC to quit</li>
+                    <li>Press R to restart after game over</li>
+                </ul>
+
+                <div class="game-screenshot">
+                    <img src="images/bouncing-ball-game.png" alt="Bouncing Ball Game Screenshot" 
+                         onError="this.onerror=null; this.src='/api/placeholder/800/600';">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Howard's Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
